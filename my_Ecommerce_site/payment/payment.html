@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav>
+        <h1>Gadgets</h1>
+        <input type="checkbox" name="" id="checkbtn">
+        <ul class="link">
+            <li><a href="../index.html"> Home</a></li>
+            <li><a href="#"> Terms & Conditions</a></li>
+            <li><a href="#"> Contact</a></li>
+
+        </ul>
+        <label for="checkbtn" class="bar">
+            <i class="fa-solid fa-bars fa-xl" style="color: #f7f7f7;"></i>
+        </label>
+        <div class="icon">
+            <!-- <i class="fa-solid fa-magnifying-glass fa-xl search" style="color: #f5f5f5;"></i> -->
+            <a href="add_to_cart/add_to_cart.html"><i class="fa-solid fa-cart-shopping fa-xl cart" style="color: #efeff1;"><sup>2</sup></i></a>
+        </div>
+    </nav>
+
+    <!-- payment section -->
+    <div class="container">
+		<div class="left">
+			<h3> Delivery Address</h3>
+			<form>
+				Full name
+				<input type="text" name="" placeholder="Enter name">
+				Email
+				<input type="text" name="" placeholder="Enter email">
+
+				Address
+				<input type="text" name="" placeholder="Enter address">
+				
+				City
+				<input type="text" name="" placeholder="Enter City">
+				<div class="zip">
+					<label>
+						State
+						<select>
+							<option>Choose State..</option>
+							<option>Rajasthan</option>
+							<option>Hariyana</option>
+							<option>Uttar Pradesh</option>
+							<option>Madhya Pradesh</option>
+						</select>
+					</label>
+						<label>
+						Zip code
+						<input type="number" name="" placeholder="Zip code">
+					</label>
+				</div>
+			</form>
+		</div>
+		<div class="right">
+			
+			<form>
+				Accepted Card <br>
+				<img src="../images/card1.png" width="100">
+				<img src="../images/card2.png" width="50">
+				<br><br>
+
+				Credit card number
+			<input type="text" name="" placeholder="Enter card number">
+				
+				Exp month
+				<input type="text" name="" placeholder="Enter Month">
+				<div class="zip">
+					<label>
+						Exp year
+						<select>
+							<option>Choose Year..</option>
+							<option>2022</option>
+							<option>2023</option>
+							<option>2024</option>
+							<option>2025</option>
+						</select>
+					</label>
+						<label>
+						CVV
+						<input type="number" name="" placeholder="CVV">
+					</label>
+				</div>
+			</form>
+			<input type="submit" name="" value="Proceed to Checkout" class="paybtn">
+		</div>
+	</div>
+
+    <!-- footer -->
+    <footer>
+       
+        <div >
+            <h3>Payment Option</h3>
+            <ul class="one">
+                <li>Google pay</li>
+                <li>Pay TM</li>
+                <li>Phone pay</li>
+               
+            </ul>
+            <p>© Gadgets zone</p>
+            <p>Powered by zoho commerce</p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <ul class="two">
+                <li><i class="fa-brands fa-facebook-f fa-xl" style="color: #f9fafb;"></i></li>
+                <li><i class="fa-brands fa-instagram fa-xl" style="color: #fafafa;"></i></li>
+                <li><i class="fa-brands fa-twitter fa-xl" style="color: #f0f2f4;"></i></li>
+            </ul>
+        </div>
+        <div>
+            <h3>We Aceppt</h3>
+            <ul>
+                <li>Visa Card</li>
+                <li>Master Card</li>
+                <li>Other Card</li>
+            </ul>
+        </div>
+        <div class="three">
+            <h3>Newsletter</h3>
+            <input type="text" class="input" value="Email">
+            <button class="btn">SUBSCRIBE</button>
+        </div>
+    
+
+</footer>
+
+</body>
+</html>
